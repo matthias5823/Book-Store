@@ -26,3 +26,14 @@ button:hover {
 .heart-fill {
     fill: red;
 }
+
+.trolly{
+    width: 50px;
+    height: 50Px;
+}
+.st0{
+    fill:#3B4652;
+}
+.st1{
+    fill:#2B79C2;
+}

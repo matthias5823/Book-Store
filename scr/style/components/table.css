@@ -1,5 +1,28 @@
+table th,
+table td{
+text-align: left;
+}
+
+
+.card-table-info{
+    width: 150px;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.card-table-info th,
+.card-table-info td{
+width: 100%;
+}
+.card-table-info th{
+    background: rgba(189, 134, 17, 0.671);
+}
+.card-table-info td{
+    padding-bottom: 8px;
+    background: rgba(75, 75, 75, 0.76);
+}
+
 caption{
-    text-align: left;
     border-top: 2px solid brown;
 }
 
