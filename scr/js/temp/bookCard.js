@@ -63,12 +63,10 @@ function addBookCard(indexBooks) {
                 </svg></button>
         </section>
         <article class="card-coment">
-            <table class="comment">
+            <table class="comment" id="comment">
+            ${addComments(indexBooks)}
                 <caption>Kommentare :</caption>
-                <tr>
-                    <th>Schreiber</th>
-                    <td>Kommentare</td>
-                </tr>
+
             </table>
             <form action="">
                 <input type="text">
