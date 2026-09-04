@@ -1,0 +1,12 @@
+caption{
+    text-align: left;
+    border-top: 2px solid brown;
+}
+
+.comment th{
+width: 150px;
+height: 35px;
+text-align: left;
+
+
+}

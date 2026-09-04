@@ -1,0 +1,28 @@
+button {
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.send {
+    width: 25px;
+    stroke: red;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.heart {
+    width: 25px;
+    stroke: red;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.heart-fill {
+    fill: red;
+}
