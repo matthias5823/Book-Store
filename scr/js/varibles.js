@@ -4,7 +4,7 @@ let books = [
       "author": "Rebecca Yarros",
       "likes": 1250,
       "liked": true,
-      "price": 16.00,
+      "price": 16.95,
       "publishedYear": 2023,
       "genre": "Fantasy",
       "picture": "../assets/imgs/FourthWingFlammengeküsst.webp",
