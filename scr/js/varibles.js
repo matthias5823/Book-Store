@@ -31,7 +31,7 @@ let books = [
       "price": 14.00,
       "publishedYear": 1997,
       "genre": "Fantasy",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/HarryPotterundderSteinderWeise.webp",
       "comments": [
         {
           "name": "Leseratte",
@@ -51,7 +51,7 @@ let books = [
       "price": 12.00,
       "publishedYear": 1937,
       "genre": "Fantasy",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DerHobbit.webp",
       "comments": []
     },
     {
@@ -62,7 +62,7 @@ let books = [
       "price": 13.00,
       "publishedYear": 2013,
       "genre": "Fantasy",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DieSchuledermagischenTiere.webp",
       "comments": [
         {
           "name": "FantasyFan",
@@ -78,7 +78,7 @@ let books = [
       "price": 15.00,
       "publishedYear": 2015,
       "genre": "Fantasy",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DasLiedderKrähen.webp",
       "comments": [
         {
           "name": "BookLover",
@@ -99,7 +99,7 @@ let books = [
       "price": 12.00,
       "publishedYear": 1995,
       "genre": "Roman",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DerVorleser.webp",
       "comments": [
         {
           "name": "Leser123",
@@ -119,7 +119,7 @@ let books = [
       "price": 12.00,
       "publishedYear": 1988,
       "genre": "Roman",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DerAlchimist.webp",
       "comments": [
         {
           "name": "Bookworm84",
@@ -135,7 +135,7 @@ let books = [
       "price": 15.00,
       "publishedYear": 1973,
       "genre": "Roman",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/Momo.webp",
       "comments": []
     },
     {
@@ -146,7 +146,7 @@ let books = [
       "price": 14.00,
       "publishedYear": 2021,
       "genre": "Roman",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DergroßeSommer.webp",
       "comments": [
         {
           "name": "SommerLeser",
@@ -162,7 +162,7 @@ let books = [
       "price": 13.00,
       "publishedYear": 2005,
       "genre": "Roman",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DieVermessungderWelt.webp",
       "comments": [
         {
           "name": "LiteraturFan",
@@ -183,7 +183,7 @@ let books = [
       "price": 7.00,
       "publishedYear": 1997,
       "genre": "Manga",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/OnePiece.webp",
       "comments": [
         {
           "name": "MangaFan",
@@ -203,7 +203,7 @@ let books = [
       "price": 7.00,
       "publishedYear": 1999,
       "genre": "Manga",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/Naruto.webp",
       "comments": [
         {
           "name": "NinjaFan",
@@ -219,7 +219,7 @@ let books = [
       "price": 8.00,
       "publishedYear": 2016,
       "genre": "Manga",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DemonSlayer.webp",
       "comments": [
         {
           "name": "MangaLover",
@@ -235,7 +235,7 @@ let books = [
       "price": 8.00,
       "publishedYear": 2009,
       "genre": "Manga",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/AttackonTitan.webp",
       "comments": [
         {
           "name": "TitanFan",
@@ -255,7 +255,7 @@ let books = [
       "price": 7.00,
       "publishedYear": 2014,
       "genre": "Manga",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/MyHeroAcademia.webp",
       "comments": []
     },
 
@@ -267,7 +267,7 @@ let books = [
       "price": 13.00,
       "publishedYear": 2012,
       "genre": "Romantik",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/EinganzeshalbesJahr.webp",
       "comments": [
         {
           "name": "RomanceFan",
@@ -287,7 +287,7 @@ let books = [
       "price": 11.00,
       "publishedYear": 1996,
       "genre": "Romantik",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/WieeineinzigerTag.webp",
       "comments": [
         {
           "name": "LoveReader",
@@ -303,7 +303,7 @@ let books = [
       "price": 12.00,
       "publishedYear": 2000,
       "genre": "Romantik",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/Bridgerton–DerDukeundich.webp",
       "comments": [
         {
           "name": "BridgertonFan",
@@ -319,7 +319,7 @@ let books = [
       "price": 14.00,
       "publishedYear": 2021,
       "genre": "Romantik",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/TheLoveHypothesis.webp",
       "comments": [
         {
           "name": "RomanceLover",
@@ -339,7 +339,7 @@ let books = [
       "price": 15.00,
       "publishedYear": 2022,
       "genre": "Romantik",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/ItStartswithUs.webp",
       "comments": []
     },
 
@@ -351,7 +351,7 @@ let books = [
       "price": 14.00,
       "publishedYear": 2011,
       "genre": "Science-Fiction",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DerMarsianer.webp",
       "comments": [
         {
           "name": "SciFiGuru",
@@ -371,7 +371,7 @@ let books = [
       "price": 15.00,
       "publishedYear": 1965,
       "genre": "Science-Fiction",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/Dune–DerWüstenplanet.webp",
       "comments": [
         {
           "name": "SciFiFan",
@@ -391,7 +391,7 @@ let books = [
       "price": 13.00,
       "publishedYear": 2011,
       "genre": "Science-Fiction",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/ReadyPlayerOne.webp",
       "comments": [
         {
           "name": "Gamer123",
@@ -427,7 +427,7 @@ let books = [
       "price": 16.00,
       "publishedYear": 2006,
       "genre": "Science-Fiction",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DiedreiSonnen.webp",
       "comments": [
         {
           "name": "ScienceFan",
@@ -444,7 +444,7 @@ let books = [
       "price": 10.00,
       "publishedYear": 1945,
       "genre": "Satire",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/FarmderTiere.webp",
       "comments": [
         {
           "name": "LiteraturFan",
@@ -464,7 +464,7 @@ let books = [
       "price": 13.00,
       "publishedYear": 2009,
       "genre": "Satire",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DerHundertjährige,derausdemFensterstiegundverschwand.webp",
       "comments": [
         {
           "name": "HumorLeser",
@@ -480,7 +480,7 @@ let books = [
       "price": 13.00,
       "publishedYear": 2017,
       "genre": "Satire",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/QualityLand.webp",
       "comments": [
         {
           "name": "SatireFan",
@@ -500,7 +500,7 @@ let books = [
       "price": 12.00,
       "publishedYear": 2012,
       "genre": "Satire",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/Eristwiederda.webp",
       "comments": [
         {
           "name": "BuchKenner",
@@ -516,7 +516,7 @@ let books = [
       "price": 12.00,
       "publishedYear": 2009,
       "genre": "Satire",
-      "picture": "../assets/imgs/",
+      "picture": "../assets/imgs/DieKänguru-Chroniken.webp",
       "comments": [
         {
           "name": "KänguruFan",
