@@ -10,7 +10,7 @@ function addBookCard(indexBooks) {
         </header>
 
         <section class="card-content">
-            <img class="card-picture" src="../assets/imgs/FourthWingFlammengeküsst.webp" alt="Platzhalter">
+            <img class="card-picture" src="${books[indexBooks].picture}" alt="Platzhalter">
             <table class="card-table-info">
                 <tr>
                     <th>Author :</th>
@@ -36,9 +36,9 @@ function addBookCard(indexBooks) {
             <div class="control-price">
                 <p class="price">${price} €</p>
                 <div class="like-place">
-                    <p class="like">${books[indexBooks].likes}</p>
-                    <button class="button-heart">
-                        <svg class="heart" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <p class="like" id="like${indexBooks}">${books[indexBooks].likes}</p>
+                    <button id="button_heart" onclick="clickLike(${indexBooks})" class="button-heart">
+                        <svg id="heart${indexBooks}" class="heart" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M15.7 4C18.87 4 21 6.98 21 9.76C21 15.39 12.16 20 12 20C11.84 20 3 15.39 3 9.76C3 6.98 5.13 4 8.3 4C10.12 4 11.31 4.91 12 5.71C12.69 4.91 13.88 4 15.7 4Z" />
                         </svg>
@@ -63,13 +63,13 @@ function addBookCard(indexBooks) {
                 </svg></button>
         </section>
         <article class="card-coment">
-            <table class="comment" id="comment">
+            <table class="comment" id="comment${indexBooks}">
             ${addComments(indexBooks)}
                 <caption>Kommentare :</caption>
 
             </table>
             <form action="">
-                <input type="text">
+                <input type="text" placeholder="Gib dein Kommentar ein">
                 <button class="button-send">
                     <svg class="send" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
