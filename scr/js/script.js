@@ -13,8 +13,10 @@ function showBooks(genre) {
     for (let indexBooks = 0; indexBooks < books.length; indexBooks++) {
         if (genre == books[indexBooks].genre) {
             addBookCard(indexBooks)
-        }
+        }else if (genre == "alle Genres") {
+        addBookCard(indexBooks)
     }
+    } 
 }
 
 function clickLike(indexBooks) {
@@ -39,4 +41,14 @@ function setLikedButton(indexBooks) {
         heartRef.classList.remove('heart-fill');
     };
 }
+
+function addInputComment(indexBooks) {
+    const commmentInputRef = document.getElementById(`input_comment${indexBooks}`);
+    const commentInput = commmentInputRef.value;
+
+    books[indexBooks].comments.push({ "name": "TestUser", "comment": commentInput });
+    renewComment(indexBooks);
+    commentInput = "";
+}
+
 

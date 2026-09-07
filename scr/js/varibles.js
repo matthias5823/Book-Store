@@ -407,7 +407,7 @@ let books = [
     "price": 12.00,
     "publishedYear": 1949,
     "genre": "Science-Fiction",
-    "picture": "../assets/imgs/",
+    "picture": "../assets/imgs/1984.webp",
     "comments": [
       {
         "name": "Leser123",
