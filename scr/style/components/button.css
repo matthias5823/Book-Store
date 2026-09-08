@@ -19,9 +19,9 @@ button:active {
 
 /* <------  Direct button styling  -----> */
 /* NavButton  */
-.button-nav{
+.button-nav {
     width: 100px;
-    height: 50px;    
+    height: 50px;
     color: var(--headlineColor);
     font-size: 16px;
     background: rgba(120, 120, 120, 0.616);
@@ -29,14 +29,14 @@ button:active {
     box-shadow: inset 0 0 17px 0 white;
 }
 
-.button-nav:hover{
+.button-nav:hover {
     font-size: 20px;
-    background: rgba(120, 120, 120, 0.8);    
+    background: rgba(120, 120, 120, 0.8);
     box-shadow: 0 0 0 3px #d4af373d;
     outline: none;
 }
 
-.button-nav:active{
+.button-nav:active {
     background-color: var(--main-bg-color);
     color: var(--headlineColor);
 }
@@ -69,6 +69,46 @@ button:active {
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
+}
+
+.save-username {
+    width: 100px;
+    height: 50px;
+    font-family: 'Merriweather';
+    background: var(--headlineColor);
+    border-radius: 10px;
+}
+
+.save-username:hover {
+    background: #d4af37af;
+    box-shadow: 0 0 0 3px #d4af373d;
+}
+
+.save-username:active {
+    border: 1px solid green;
+}
+
+.none-username {
+    width: 100px;
+    height: 50px;
+    color: var(--headlineColor);
+    font-family: 'Merriweather';
+    background: var(--mainBorderColor);
+    border-radius: 10px;
+}
+
+.none-username:hover {
+    color: black;
+    background: #d4af37af;
+    box-shadow: 0 0 0 3px #d4af373d;
+}
+
+.none-username:active {
+    border: 1px solid green;
+}
+
+.bstg {
+    color: rgb(150, 4, 4);
 }
 
 /* .trolly{

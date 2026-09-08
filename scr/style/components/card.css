@@ -1,156 +1,178 @@
- .book-card {
-     width: 300px;
-     height: 580px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     color: white;
-     justify-content: flex-start;
-     background-color: rgba(75, 75, 75, 0.733);
-     border-radius: 5%;
- }
+.book-card {
+    width: 300px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: flex-start;
+    background-color: rgba(75, 75, 75, 0.733);
+    border-radius: 5%;
+}
 
- .card-headline {
-     width: 100%;
-     height: 80px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+.card-headline {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-     border-bottom: 2px solid var(--mainBorderColor);
- }
+    border-bottom: 2px solid var(--mainBorderColor);
+}
 
- .card-headline>h2 {
-     text-align: center;
- }
+.card-headline>h2 {
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.3em;
+}
 
- /* <----- Section content  */
- .card-content {
-     width: 100%;
-     height: 200px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     gap: 30px;
-     border-bottom: 2px solid var(--mainBorderColor);
-     padding: 25px 0;
- }
+/* <----- Section content  */
+.card-content {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 2px solid var(--mainBorderColor);
+    padding: 25px 0;
+}
 
- .card-picture {
-     width: 100px;
-     height: auto;
-     box-shadow: 11px -7px 17px 1px rgba(122, 121, 121, 0.78);
- }
+.card-picture {
+    width: 100px;
+    height: auto;
+    box-shadow: 11px -7px 17px 1px rgba(122, 121, 121, 0.78);
+}
 
- .book-info {
-     width: calc(((100% - 20px) / 2) * 1);
-     height: 150px;
-     color: var(--mainFontsColor);
+.book-info {
+    width: calc(((100% - 20px) / 2) * 1);
+    height: 150px;
+    color: var(--mainFontsColor);
 
- }
+}
 
- .info-head {
-     height: 20px;
-     font-family: 'Merriweather';
-     font-weight: bold;
- }
+.info-head {
+    height: 18px;
+    font-family: 'Merriweather';
+    font-weight: 600;
+}
 
- .info-content {
-     height: 20px;
-     margin-bottom: 8px;
- }
+.info-content {
+    height: 20px;
+    margin-bottom: 8px;
+}
 
- /* <---- Section control */
- .control {
-     width: 100%;
-     height: 75px;
-     justify-content: center;
-     background: Linear-gradient(45deg, #171717, #d4af3777);
-     border-bottom: 2px solid green;
- }
+/* <---- Section control */
+.control {
+    width: 100%;
+    height: 75px;
+    justify-content: center;
+    background: Linear-gradient(45deg, #171717, #d4af3777);
+    border-bottom: 2px solid green;
+}
 
- .control-price {
-     width: 100%;
-     height: 75px;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
+.control-price {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
- .price {
-     width: 75px;
-     height: 35px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     font-weight: bold;
- }
+.price {
+    width: 75px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
 
- .like-place {
-     height: 100%;
-     width: 200px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     gap: 8px;
- }
+.like-place {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
 
- .like {
-     height: 35pxx;
-     justify-content: center;
-     align-items: center;
- }
+.like {
+    height: 35pxx;
+    justify-content: center;
+    align-items: center;
+}
 
- /*<--- Section comm */
- .card-comment {
-     width: 100%;
-     height: 200px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     padding: 10px;
+/*<--- Section comm */
+.card-comment {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 
- }
+}
 
- .comment-head {
-     width: 100%;
-     align-items: flex-start;
-     font-size: 18px;
-     padding-bottom: 10px;
- }
+.comment-head {
+    width: 100%;
+    align-items: flex-start;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
 
- .comment {
-     min-width: calc(100% - 20px);
-     max-width: calc(100% - 20px);
-     min-height: 120px;
-     max-height: 120px;
-     display: flex;
-     flex-direction: column;
-     color: var(--mainFontsColor);
-     overflow: auto;
-     gap: 10px;
- }
+.comment {
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    min-height: 120px;
+    max-height: 120px;
+    display: flex;
+    flex-direction: column;
+    color: var(--mainFontsColor);
+    overflow: auto;
+    gap: 10px;
+}
 
- .entry-comment {
-     display: flex;
-     gap: 10px;
- }
+.entry-comment {
+    display: flex;
+    gap: 10px;
+}
 
- .commentator {
-     max-width: calc((100% / 2) * 0.5);
-     font-weight: bold;
-     white-space: nowrap;
-     overflow: hidden;
-     text-overflow: ellipsis;
- }
+.commentator {
+    max-width: calc((100% / 2) * 0.5);
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
- .commentator-comment {
-     width: calc((100% / 2) * 1.5);
-     line-height: 1.2em;
- }
+.commentator-comment {
+    width: calc((100% / 2) * 1.5);
+    line-height: 1.2em;
+}
 
- .comment-input {
-     display: flex;
+.comment-input {
+    display: flex;
 
-     padding-top: 10px;
- }
+    padding-top: 10px;
+}
+
+@media screen and (width <=416px) {
+    .book-card {
+        width: 290px;
+        height: 685px;
+
+    }
+
+    .card-content {
+        height: 309px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+}

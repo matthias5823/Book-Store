@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Book Store of Eselsohr</title>
 
     <script src="../js/varibles.js" defer></script>
@@ -19,22 +19,49 @@
     <link rel="stylesheet" href="../style/components/card.css">
     <link rel="stylesheet" href="../style/components/input.css">
     <link rel="stylesheet" href="../style/components/button.css">
-    
+
 
 </head>
 
-<body onload="loadNavGenre()">
+<body onload="getUsernameFromLocalStorage()">
     <header class="header-main">
         <img class="logo" src="../assets/imgs/LogoBookStore.webp" alt="">
         <h1>Book Store of Eselsohr</h1>
     </header>
+    <main>
+        <h2>Herzlich willkommen im Book Store of Eselsohr!</h2>
 
-    <nav id="genre">
-    </nav>
+        <section id="section_landing" class="section-landing">
+            <p>
+                Wir freuen uns riesig, dich in unserem Online-Shop zu begrüßen! Bei uns findest du alles, was das
+                Leseherz begehrt – von packenden Bestsellern über zeitlose Klassiker bis hin zu inspirierenden
+                Sachbüchern.
+            </p>
+            <h3>Dein erster Schritt: Wähle deinen Usernamen</h3>
+            <p>
+                Bevor du dich auf die Suche nach deinem nächsten Lieblingsbuch machst, lege dir am besten direkt deinen
+                persönlichen Usernamen an. Dieser Name wird sichtbar, wenn du im Shop aktiv wirst:
+            </p>
+            <ul>
+                <li>Kommentare hinterlassen: Tausche deine Gedanken zu Büchern direkt auf den Produktseiten aus.</li>
+                <li>usw.</li>
+            </ul>
 
-    <section id="section_book_card" class="section-book-card">
+        </section>
 
-    </section>
+        <section class="test-user">
+            <input type="text" id="input_username" placeholder="Gib dein Usernamen ein">
+            <p id="notify_unsernamen"></p>
+            <div class="feld-user-button">
+                <button class="save-username" id="save_username" onclick="addedUsername()">Usernamen Speichern</button>
+                <button class="none-username" id="none_username" onclick="continueWithoutUser()">weiter <strong class="bstg">ohne</strong> Usernamen</button>
+            </div>
+
+        </section>
+
+    </main>
+
+
 
 </body>
 
